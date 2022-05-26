@@ -1,4 +1,4 @@
-[![wakatime](https://wakatime.com/badge/user/1b6adeb9-2ae7-4955-bcde-d3ff669c5d9e/project/d2d27816-8e1d-4761-817e-9c65d9e5b485.svg)](https://wakatime.com/badge/user/1b6adeb9-2ae7-4955-bcde-d3ff669c5d9e/project/d2d27816-8e1d-4761-817e-9c65d9e5b485)
+[![wakatime](https://wakatime.com/badge/user/1b6adeb9-2ae7-4955-bcde-d3ff669c5d9e/project/dcc8fae4-ac37-4d9c-bfbd-fdd3f4c037b9.svg)](https://wakatime.com/badge/user/1b6adeb9-2ae7-4955-bcde-d3ff669c5d9e/project/dcc8fae4-ac37-4d9c-bfbd-fdd3f4c037b9)
 
 # stepic-program-golang
 
