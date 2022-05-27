@@ -10,15 +10,16 @@ package main
 
 import "fmt"
 
-func main() {
-	var k int
-	_, _ = fmt.Scan(&k)
-	h, m := getHourMinute(k)
-	fmt.Printf("It is %d hours %d minutes.", h, m)
-}
-
 func getHourMinute(k int) (h, m int) {
 	h = k / 3600
 	m = (k - h*3600) / 60
 	return h, m
+}
+
+func main() {
+	var k int
+
+	_, _ = fmt.Scan(&k)
+	h, m := getHourMinute(k)
+	fmt.Printf("It is %d hours %d minutes.", h, m)
 }
