@@ -28,6 +28,7 @@ func sumDigitInt(num int) int {
 
 func main() {
 	var num int
+
 	_, _ = fmt.Scan(&num)
 	fmt.Println(sumDigitStr(fmt.Sprintf("%d", num)))
 	// or fmt.Println(sumDigitInt(num))

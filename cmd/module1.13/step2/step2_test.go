@@ -70,7 +70,6 @@ func Benchmark_sumDigitInt(b *testing.B) {
 		{111},
 	}
 	for _, tt := range tests {
-
 		for i := 0; i < b.N; i++ {
 			sumDigitInt(tt.args)
 		}
