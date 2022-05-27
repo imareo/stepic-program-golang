@@ -14,6 +14,7 @@ import "fmt"
 
 func main() {
 	var inp string
+
 	_, _ = fmt.Scan(&inp)
 	fmt.Println(string(inp[0]))
 }

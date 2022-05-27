@@ -17,6 +17,7 @@ import "fmt"
 
 func main() {
 	var inp string
+
 	_, _ = fmt.Scan(&inp)
 	if inp[0] == inp[2] || inp[1] == inp[2] || inp[0] == inp[1] {
 		fmt.Print("NO")

@@ -11,6 +11,7 @@ import "fmt"
 
 func main() {
 	var num1, num2 string
+
 	_, _ = fmt.Scan(&num1, &num2)
 	for i := 0; i < len(num1); i++ {
 		for j := 0; j < len(num2); j++ {

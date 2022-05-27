@@ -14,6 +14,7 @@ import "fmt"
 
 func main() {
 	var inp string
+
 	_, _ = fmt.Scan(&inp)
 	sumF := int(inp[0]) + int(inp[1]) + int(inp[2])
 	sumS := int(inp[3]) + int(inp[4]) + int(inp[5])

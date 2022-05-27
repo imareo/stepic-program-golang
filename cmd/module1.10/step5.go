@@ -11,6 +11,7 @@ import "fmt"
 
 func main() {
 	var inp, max, res int
+
 	for _, _ = fmt.Scan(&inp); inp != 0; _, _ = fmt.Scan(&inp) {
 		if inp > max {
 			res = 1

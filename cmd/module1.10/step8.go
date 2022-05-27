@@ -16,6 +16,7 @@ import "fmt"
 
 func main() {
 	var inp int
+
 	for _, _ = fmt.Scan(&inp); inp <= 100; _, _ = fmt.Scan(&inp) {
 		if inp < 10 {
 			continue

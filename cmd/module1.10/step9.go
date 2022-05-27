@@ -12,6 +12,7 @@ import "fmt"
 
 func main() {
 	var x, p, y, i int
+
 	_, _ = fmt.Scan(&x, &p, &y)
 	for i = 0; x < y; i++ {
 		x += x * p / 100

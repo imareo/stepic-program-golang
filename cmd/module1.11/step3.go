@@ -21,6 +21,7 @@ import "fmt"
 
 func main() {
 	var inp float64
+
 	_, _ = fmt.Scan(&inp)
 	if inp <= 0 {
 		fmt.Printf("число %2.2f не подходит", inp)

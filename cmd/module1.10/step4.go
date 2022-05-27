@@ -13,6 +13,7 @@ import "fmt"
 
 func main() {
 	var inp1, inp2, res int
+
 	_, _ = fmt.Scan(&inp1)
 	for i := 1; i < inp1+1; i++ {
 		_, _ = fmt.Scan(&inp2)

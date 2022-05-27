@@ -12,6 +12,7 @@ import "fmt"
 
 func main() {
 	var inp int
+
 	_, _ = fmt.Scan(&inp)
 	if inp > 0 {
 		fmt.Print("Число положительное")
