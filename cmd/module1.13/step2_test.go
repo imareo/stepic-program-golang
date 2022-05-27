@@ -45,3 +45,34 @@ func Test_sumDigitStr(t *testing.T) {
 		})
 	}
 }
+
+func Benchmark_sumDigitStr(b *testing.B) {
+	tests := []struct {
+		args string
+	}{
+		{"123"},
+		{"745"},
+		{"111"},
+	}
+	for _, tt := range tests {
+		for i := 0; i < b.N; i++ {
+			sumDigitStr(tt.args)
+		}
+	}
+}
+
+func Benchmark_sumDigitInt(b *testing.B) {
+	tests := []struct {
+		args int
+	}{
+		{123},
+		{745},
+		{111},
+	}
+	for _, tt := range tests {
+
+		for i := 0; i < b.N; i++ {
+			sumDigitInt(tt.args)
+		}
+	}
+}
