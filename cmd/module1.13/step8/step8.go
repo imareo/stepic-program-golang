@@ -9,6 +9,7 @@ package main
 
 import "fmt"
 
+// todo add test ?
 func main() {
 	var num, temp, res int
 

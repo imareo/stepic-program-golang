@@ -18,6 +18,7 @@ func solver(a int, b int) (int, bool) {
 
 func main() {
 	var a, b int
+
 	_, _ = fmt.Scan(&a, &b)
 	res, isAns := solver(a, b)
 	if isAns {
