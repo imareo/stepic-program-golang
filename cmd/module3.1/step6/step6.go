@@ -24,9 +24,9 @@ package main
 
 func main() {
 	groupCity := map[int][]string{
-		10:   []string{"p1", "p2", "p3"},
-		100:  []string{"p4", "p5", "p6"},
-		1000: []string{"p7", "p8", "p9"},
+		10:   {"p1", "p2", "p3"},
+		100:  {"p4", "p5", "p6"},
+		1000: {"p7", "p8", "p9"},
 	}
 	cityPopulation := map[string]int{
 		"p1": 11,
@@ -41,7 +41,7 @@ func main() {
 	}
 
 	// todo test ?
-	for name, _ := range cityPopulation {
+	for name := range cityPopulation {
 		isCityFine := false
 		for _, city := range groupCity[100] {
 			if name == city {
